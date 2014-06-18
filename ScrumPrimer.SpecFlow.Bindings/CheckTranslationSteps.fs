@@ -6,10 +6,11 @@ open NUnit.Framework
 open canopy
 open System
 
-
-let [<Given(@"I am on the home page")>] GivenIAmOnTheHomePage() =
+let [<BeforeScenario>] SetupScenario () =
     configuration.chromeDir <- @"D:\"
     start chrome
+
+let [<Given(@"I am on the home page")>] GivenIAmOnTheHomePage() =
     url "http://www.scrumprimer.org"
 
 let [<When(@"I go to scrum primer overview translation page")>] WhenIGoToScrumPrimerOverviewTranslationPage() =
