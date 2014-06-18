@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrumPrimer.SpecFlow", "Scr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BACEFAE4-80CC-4AA4-BC8B-819A43792562}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ScrumPrimer.SpecFlow.Bindings", "ScrumPrimer.SpecFlow.Bings\ScrumPrimer.SpecFlow.Bindings.fsproj", "{0F08EF28-8AF3-4F0E-BC62-54D6B14CAED3}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ScrumPrimer.SpecFlow.Bindings", "ScrumPrimer.SpecFlow.Bindings\ScrumPrimer.SpecFlow.Bindings.fsproj", "{0F08EF28-8AF3-4F0E-BC62-54D6B14CAED3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

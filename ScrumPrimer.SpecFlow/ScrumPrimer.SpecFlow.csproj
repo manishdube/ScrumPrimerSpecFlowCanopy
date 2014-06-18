@@ -89,7 +89,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ScrumPrimer.SpecFlow.Bings\ScrumPrimer.SpecFlow.Bindings.fsproj">
+    <ProjectReference Include="..\ScrumPrimer.SpecFlow.Bindings\ScrumPrimer.SpecFlow.Bindings.fsproj">
       <Project>{0f08ef28-8af3-4f0e-bc62-54d6b14caed3}</Project>
       <Name>ScrumPrimer.SpecFlow.Bindings</Name>
     </ProjectReference>
